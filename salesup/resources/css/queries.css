@@ -5,10 +5,10 @@
         margin-left: 12px;
     }
     #search-box{
-        width: 650px;
-        padding-left: 45px;
+        /* width: 650px; */
+        /* padding-left: 45px;
         padding-right: 15px;
-        border: none;
+        border: none; */
     }
     .user-and-notification{
         float: right;

@@ -30,7 +30,7 @@ body{
 /*---------------------------*/
 
 .row{
-    max-width: 80%;
+    max-width: 90%;
     margin : 0 auto;
 }
 section{
@@ -174,12 +174,13 @@ header{
 .logo{
     width: auto;
     float:left;
-    margin-right: 100px;
 }
 .search-full{
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     transition: all 0.2s;
+    margin-left: 8.5%;
+    width: 55%;
 }
 .search-full:hover{
     box-shadow: 0 0 3px #afacac;
@@ -195,20 +196,30 @@ header{
     font-size: 20px;
     color: #9aa0a6;
     height: 20px;
+    position: absolute;
+    top: 12px;
+    margin-left: 12px;
 }
 #search-box{
     border-radius: 24px;
     font-weight: 400;
     /* background-color: #efefef; */
     /* background-color: #f1ecec; */
+    width: 90%;
+    padding-left: 45px;
+    padding-right: 15px;
+    border: none;
 }
 .user-and-notification{
     display: flex;
     align-items: center;
     font-size: 30px;
+    float: right;
+    margin-top: 5px;
 }
 .notification-full{
     position: relative;
+    /* margin-right: 50%; */
 }
 
 .header-dropdown-ul{
@@ -876,37 +887,4 @@ footer ul{
 footer p{
     text-align: center;
     margin-top: 20px;
-}
-
-
-/*
------------------------------------
------------------------------------
-----------BRAND-SCREEN-------------
------------------------------------
------------------------------------
-*/
-
-.section-brand-info{
-    background-color: #fff;
-    
-}
-.brand-info-full{
-    height: 250px;
-    border: solid 1px #f4f4f4;
-}
-.brand-profile{
-    height: 80%;
-}
-.brand-extra-details-bar{
-    height: 20%;
-    background-color: #9aa0a6;
-}
-.brand-logo{
-    width: 30%;
-    height: 90%;
-}
-.brand-logo img{
-    height: 100%;
-    width: 100%;
 }
