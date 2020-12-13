@@ -30,7 +30,7 @@ body{
 /*---------------------------*/
 
 .row{
-    max-width: 90%;
+    max-width: 80%;
     margin : 0 auto;
 }
 section{
@@ -876,4 +876,37 @@ footer ul{
 footer p{
     text-align: center;
     margin-top: 20px;
+}
+
+
+/*
+-----------------------------------
+-----------------------------------
+----------BRAND-SCREEN-------------
+-----------------------------------
+-----------------------------------
+*/
+
+.section-brand-info{
+    background-color: #fff;
+    
+}
+.brand-info-full{
+    height: 250px;
+    border: solid 1px #f4f4f4;
+}
+.brand-profile{
+    height: 80%;
+}
+.brand-extra-details-bar{
+    height: 20%;
+    background-color: #9aa0a6;
+}
+.brand-logo{
+    width: 30%;
+    height: 90%;
+}
+.brand-logo img{
+    height: 100%;
+    width: 100%;
 }
