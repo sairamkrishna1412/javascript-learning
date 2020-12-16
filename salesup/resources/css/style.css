@@ -319,7 +319,6 @@ header{
 }
 
 .nav-main li{
-    line-height: 40px;
     list-style: none;
     display: inline-block;
     cursor: pointer;
@@ -334,6 +333,7 @@ header{
 .nav-left{
     float: left;
     width: 70%;
+    position: relative;
 }
 /* .nav-categories{
     display: inline-block;
@@ -377,7 +377,7 @@ header{
     line-height: normal;
     box-shadow: 0 2px 5px 2px rgba(0,0,0,.02);
     padding: 12px;
-    min-width: 1035px;
+    min-width: 144%;
     z-index: 999;
     visibility: hidden;
     /* visibility: visible; */
@@ -393,31 +393,29 @@ header{
     position: relative;
     /* display: block; */
 }
-.nav-left-li-heading:hover +.nav-main-dropdown-ul{
+.nav-left-li-heading:hover ~ .nav-main-dropdown-ul{
     visibility: visible;
     opacity: 1;
     top: 40px;
 }
 .nav-sub-menu{
-    width: 250px;
-    padding: 0px 10px 10px 10px;
+    width: 19%;
+    padding: 0px 0.8% 0.8% 0.8%;
     height : 340px;
 }
 .nav-sub-menu-title{
     background-color: salmon;
     font-size: 115%;
     font-style: italic;
-    cursor: default;
+    cursor: pointer;
 }
 .nav-sub-menu-elements li{
     background-color: royalblue;
     position: relative;
-    /* margin-right: 18%; */
-    /* width: 30%; */
-    width: 80px;
-    margin-right: 20px;
+    margin-right: 8%;
+    margin-bottom: 5px;
+    width: 86%;
     height: 25px;
-    line-height: 25px;
 }
 .nav-sub-menu-elements li a{
     position: absolute;
@@ -429,6 +427,7 @@ header{
     overflow: hidden;
     display: block;
     margin-top: 10px;
+    line-height: 20px;
 }
 .nav-categories li a{
     text-decoration: none;
@@ -440,6 +439,7 @@ header{
 }
 .nav-right li{
     margin-right: 52px;
+    line-height: 40px;
 }
 /*LIVE*/
 .pulse {
