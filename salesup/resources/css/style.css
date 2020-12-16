@@ -94,6 +94,10 @@ section{
     width: 100%;
     height: 60px;
 }
+.normal-link{
+    text-decoration: none;
+    color: #000;
+}
 /*----------HEADINGS---------*/
 
 h1,
@@ -342,7 +346,7 @@ header{
 .nav-right-li{
     cursor: pointer;
 } */
-.nav-left-li-heading{
+.nav-left-item-heading{
     line-height: 40px;
     list-style: none;
     cursor: pointer;
@@ -355,15 +359,15 @@ header{
     /* transition: border-bottom 1s; */
     position: relative;
 }
-.nav-left-li-heading:first-of-type{
+.nav-left-item-heading:first-of-type{
     margin-left : 20px;
 }
-.nav-left-li-heading:hover,
-.nav-left-li-heading:active{
+.nav-left-item-heading:hover,
+.nav-left-item-heading:active{
     /* border-bottom: 3px solid #16171a; */
     box-shadow: inset 0 -2px #16171a;
 }
-.nav-left-li-heading:after{
+.nav-left-dropdown-item:after{
     content: "\25BE";
     position: static;   
 }
@@ -389,11 +393,11 @@ header{
     width: auto;
     cursor: default;
 }
-.nav-left-li-heading{
+.nav-left-item-heading{
     position: relative;
     /* display: block; */
 }
-.nav-left-li-heading:hover ~ .nav-main-dropdown-ul{
+.nav-left-dropdown-item:hover ~ .nav-main-dropdown-ul{
     visibility: visible;
     opacity: 1;
     top: 40px;
