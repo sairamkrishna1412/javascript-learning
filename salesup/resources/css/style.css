@@ -220,6 +220,7 @@ header{
     font-size: 30px;
     float: right;
     margin-top: 5px;
+    margin-right: 20px;
 }
 .notification-full{
     position: relative;
@@ -343,7 +344,7 @@ header{
 }
 .nav-left{
     float: left;
-    width: 70%;
+    width: 65%;
     position: relative;
 }
 /* .nav-categories{
@@ -360,7 +361,7 @@ header{
 
     display: inline-block;
 
-    margin-left: 60px;
+    margin-left: 7%;
     /* border-bottom: 1px solid transparent; */
     transition: all .3s ease;
     /* transition: border-bottom 1s; */
@@ -445,11 +446,14 @@ header{
     color:#16171a;
 }
 .nav-right{
-    width: 30%;
+    width: 35%;
     float: right;
 }
+.nav-right ul{
+
+}
 .nav-right li{
-    margin-right: 52px;
+    margin-right: 10%;
     line-height: 40px;
 }
 /*LIVE*/
